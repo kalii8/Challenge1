@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 
-$bgcolor: #e9edf0;
-$container-bg-color: #2d1a15;
-$header-color: #bab8ae;
-$dark-text-color: #201a26;
+$bgcolor: #F0EBEF;
+$container-bg-color: #323236;
+$header-color: #6F7278;
+$text-color: #000;
 
 //common styles for all pages
 
@@ -21,15 +21,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: $container-bg-color;
-  color: $header-color;
+  color: white;
+  min-height: 100vh;
 }
 
 .header {
   background-color: $header-color;
   padding: 2rem;
-  height:15%;
+  
   a{
-    color: $dark-text-color;
+    color: $text-color;
+    font-weight: bolder;
   }
   }
 .big {
